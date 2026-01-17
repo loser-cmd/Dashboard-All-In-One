@@ -1,0 +1,17 @@
+SURAT PERNYATAAN KEPEMILIKAN SOURCE CODE
+
+Saya yang bertanda tangan di bawah ini:
+
+Nama  : Juni Putra
+
+Menyatakan bahwa seluruh source code aplikasi
+"DASHBOARD PIMPINAN BAGIAN UMUM SETDA"
+adalah hasil karya asli, tidak melanggar hak cipta,
+dan tidak menggunakan lisensi berbayar.
+
+Hash Identitas:
+SETDA-UMUM-JP-2026-8c4e6f3d9b2a1f77
+
+Hak penggunaan diserahkan penuh kepada Pemerintah Daerah.
+
+Demikian pernyataan ini dibuat dengan sebenar-benarnya.
