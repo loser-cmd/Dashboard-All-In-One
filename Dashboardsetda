@@ -1,0 +1,33 @@
+dashboard-setda/
+│
+├── config/
+│   └── database.php
+│
+├── auth/
+│   ├── login.php
+│   ├── logout.php
+│   └── process_login.php
+│
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── chart-init.js
+│
+├── dashboard/
+│   ├── index.php
+│   ├── kinerja.php
+│   ├── anggaran.php
+│   └── kegiatan.php
+│
+├── admin/
+│   ├── user.php
+│   └── input_data.php
+│
+├── includes/
+│   ├── header.php
+│   ├── footer.php
+│   └── auth_check.php
+│
+├── database.sql
+└── index.php
