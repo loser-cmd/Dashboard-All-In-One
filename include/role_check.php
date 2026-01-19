@@ -1,4 +1,2 @@
-<?php
-if($_SESSION['role'] !== 'admin'){
-    die("AKSES DITOLAK");
-}
+require_once __DIR__ . '/includes/role_check.php';
+checkRole(['bupati', 'sekda']);
