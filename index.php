@@ -1,15 +1,13 @@
 <?php
-session_start();
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 
-/* === DEMO MODE (HAPUS SETELAH DEMO) === */
+/* DEMO MODE */
 $_SESSION['user_id'] = 1;
-$_SESSION['role'] = 'bupati'; 
-// ganti: bupati | sekda | opd
-/* ==================================== */
-<?php
-// Root entry point - Dashboard All In One
+$_SESSION['role'] = 'bupati';
+/* END DEMO */
 
+// PATH YANG BENAR
 require_once __DIR__ . '/includes/auth_check.php';
-
-// Default route → dashboard
-require __DIR__ . '/modules/dashboard/index.php';
+require_once __DIR__ . '/modules/dashboard/index.php';
