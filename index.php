@@ -1,13 +1,7 @@
 <?php
-if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-}
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
 
-/* DEMO MODE */
-$_SESSION['user_id'] = 1;
-$_SESSION['role'] = 'bupati';
-/* END DEMO */
+echo "INDEX ROOT OK<br>";
 
-// PATH YANG BENAR
-require_once __DIR__ . '/includes/auth_check.php';
-require_once __DIR__ . '/modules/dashboard/index.php';
+require __DIR__ . '/modules/dashboard/index.php';
